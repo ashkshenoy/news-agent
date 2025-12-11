@@ -1,7 +1,7 @@
 import logging
 import json
 import datetime
-import os;
+import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
@@ -9,13 +9,17 @@ from agents.news_agent import NewsAgent
 from tools.weather import get_weather
 from tools.aqi import get_aqi
 from tools.crypto import get_crypto
-
+from dotenv import load_dotenv
+load_dotenv()
 
 # --------------------- CONFIG ---------------------
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-CHAT_ID = int(os.getenv("CHAT_ID"))
 
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
+CHAT_ID = int(os.getenv("CHAT_ID"))
+print("DEBUG TOKEN:", BOT_TOKEN)
+print("DEBUG CHAT:", CHAT_ID)
 
 logging.basicConfig(level=logging.INFO)
 
