@@ -1,7 +1,7 @@
 import logging
 import json
 import datetime
-
+import os;
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
@@ -13,8 +13,8 @@ from tools.crypto import get_crypto
 
 # --------------------- CONFIG ---------------------
 
-BOT_TOKEN = "7975742175:AAEMSNMUUen1xjDs7fhcpDkT12kXHn_vYT8"     # <-- Replace with your token
-CHAT_ID = 	7374983919           # <-- Replace with your chat id
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = int(os.getenv("CHAT_ID"))
 
 
 logging.basicConfig(level=logging.INFO)
