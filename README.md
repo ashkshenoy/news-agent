@@ -1,4 +1,4 @@
-##📰 RootX News Agent (Telegram Bot)
+<h1>📰 RootX News Agent (Telegram Bot)</h1>
 
 A simple, fast, modular Telegram bot that delivers:
 Categorized news (India, Tech, Economy, Sports, etc.)
