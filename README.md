@@ -1,4 +1,4 @@
-📰 RootX News Agent (Telegram Bot)
+##📰 RootX News Agent (Telegram Bot)
 
 A simple, fast, modular Telegram bot that delivers:
 Categorized news (India, Tech, Economy, Sports, etc.)
@@ -90,3 +90,7 @@ RSS feeds (Google News, BBC, ESPN, TechCrunch, The Verge, etc.)
 Requests + Feedparser
 
 Dotenv for secrets
+
+
+<img width="1392" height="799" alt="image" src="https://github.com/user-attachments/assets/739c7fab-1f7d-4af9-aec3-5bf0b4611e0f" />
+
